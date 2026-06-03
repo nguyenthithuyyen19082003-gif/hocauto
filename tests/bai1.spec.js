@@ -9,5 +9,5 @@ test('Login', async ({page}) => {
     await page.fill('input[name="password"]', 'admin123');
     await page.click('button[type="submit"]');
 
-    await expect(page).toHaveURL(/dashboard/);
+    await expect(page).toHaveURL(/dashboardHIYenXinhGai/);
 });
